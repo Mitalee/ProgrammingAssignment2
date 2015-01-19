@@ -1,0 +1,7 @@
+source("cachematrix.R")
+x <- matrix(c(4,2,7,6))
+x
+x <- matrix(c(4,2,7,6),nrow=2,ncol=2)
+x
+matobj <- makeCacheMatrix(x)
+cacheSolve(matobj)
